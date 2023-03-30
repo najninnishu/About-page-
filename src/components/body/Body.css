@@ -1,0 +1,135 @@
+/* starts part1 here */
+.part1 h4{
+    font-size:2rem;
+    font-family: 'Pacifico', cursive;
+    /* margin-bottom:80px; */
+    margin-left:100px;
+    margin-top:70px;
+    
+}
+
+.part1 p{
+    /* font-family: 'Pacifico', cursive; */
+    font-size:1rem;
+    text-align:justify;
+    margin-left:100px;
+    width:50%;
+}
+.part1 .c{
+background-color:indigo;
+text-align:center;
+color:white;
+font-size:1.3rem;
+margin-left:300px;
+border-radius:10px;
+width:15%;
+}
+
+.part1 .c:hover{
+    background-color:skyblue;
+}
+
+/* ends part1 here */
+
+/* starts part2 here */
+
+.part2 h4{
+    font-size:2rem;
+    font-family: 'Pacifico', cursive;
+    margin-bottom:80px;
+    margin-left:1100px;
+    width:50%;
+    
+}
+
+.part2 p{
+    /* font-family: 'Pacifico', cursive; */
+    font-size:1rem;
+    text-align:justify;
+    margin-left:900px;
+    width:50%;
+    
+}
+
+/* ends part2 here */
+
+/* starts parts3 here */
+.part3 h4{
+    font-size:2rem;
+    font-family: 'Pacifico', cursive;
+    margin-bottom:80px;
+    margin-left:100px;
+    
+}
+
+.part3 p{
+    /* font-family: 'Pacifico', cursive; */
+    font-size:1rem;
+    text-align:justify;
+    margin-left:100px;
+    width:50%;
+}
+/* ends part3 here */
+
+
+/* start part4 here */
+.part4 h4{
+    font-size:2rem;
+    font-family: 'Pacifico', cursive;
+    margin-bottom:80px;
+    margin-left:100px;
+    text-align:center;
+}
+
+.part4 p{
+    /* font-family: 'Pacifico', cursive; */
+    font-size:1rem;
+    text-align:justify;
+    margin-left:100px;
+    width:90%;
+}
+/* ends part4 here */
+
+/* starts part5 here */
+
+.part5 h1{
+    font-size:3.5rem;
+    /* font-family: 'Pacifico', cursive; */
+    margin-bottom:80px;
+    margin-left:100px;
+    margin-top:70px;
+    text-align:center;
+}
+
+.part5 .c{
+background-color:indigo;
+text-align:center;
+color:white;
+font-size:1.5rem;
+margin-left:600px;
+border-radius:10px;
+padding:5px;
+width:20%;
+margin-bottom:2px;
+}
+
+.part5 .c:hover{
+    background-color:skyblue;
+}
+
+/* ends part5 here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
