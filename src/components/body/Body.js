@@ -1,5 +1,8 @@
 import React from 'react';
 import './Body.css';
+import logo from '../../images/About_us-removebg-preview.png';
+import logo1 from '../../images/20943958.jpg';
+import logo2 from '../../images/6137734.jpg';
 const Body = () => {
     return (
         <div>
@@ -15,7 +18,9 @@ const Body = () => {
                     market.</p>
                 <button class="c">Learn More</button>
 
-
+                <div class="img1">
+                    <img src={logo} alt="" />
+                </div>
 
             </div>
 
@@ -28,6 +33,12 @@ const Body = () => {
                     through various skill development programs. Our main focus is to
                     create a platform that can create a bridge among the concerns and
                     applicants.</p>
+
+                <div class="img2">
+                    <img src={logo1} alt="" />
+                </div>
+
+
 
             </div>
 
@@ -44,6 +55,10 @@ const Body = () => {
                     on the global or local environment, community, society, or
                     economy.</p>
 
+
+                <div class="img3">
+                    <img src={logo2} alt="" />
+                </div>
             </div>
 
 
@@ -66,17 +81,17 @@ const Body = () => {
                 </p>
             </div>
 
-
             <div class="part5">
 
                 <h1>Interested On Us?</h1>
 
                 <button class="c">Contact Now</button>
 
-
-
-
             </div>
+
+            <div class="credit"> Developed by <span> Miss Najnin ❤</span> | all rights reserved </div>
+
+
         </div>
     );
 };

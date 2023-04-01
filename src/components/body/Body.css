@@ -9,13 +9,14 @@
 }
 
 .part1 p{
-    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico', cursive;
     font-size:1rem;
     text-align:justify;
     margin-left:100px;
     width:50%;
 }
 .part1 .c{
+font-family: 'Pacifico', cursive;
 background-color:indigo;
 text-align:center;
 color:white;
@@ -28,6 +29,14 @@ width:15%;
 .part1 .c:hover{
     background-color:skyblue;
 }
+.part1 .img1 img{
+    /* float:right; */
+    position:relative;
+    bottom:230px;
+    left:500px;
+}
+
+
 
 /* ends part1 here */
 
@@ -36,19 +45,29 @@ width:15%;
 .part2 h4{
     font-size:2rem;
     font-family: 'Pacifico', cursive;
-    margin-bottom:80px;
-    margin-left:1100px;
+    bottom:150px;
+    margin-left:800px;
     width:50%;
-    
+    position:relative;
 }
 
 .part2 p{
-    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico', cursive;
     font-size:1rem;
     text-align:justify;
-    margin-left:900px;
+    margin-left:600px;
     width:50%;
-    
+    position:relative;
+    bottom:140px;
+}
+
+.part2 .img2 img{ 
+    width:20%;
+    position:relative;
+    bottom:350px;
+    right:50px;
+    left:100px;
+
 }
 
 /* ends part2 here */
@@ -59,16 +78,28 @@ width:15%;
     font-family: 'Pacifico', cursive;
     margin-bottom:80px;
     margin-left:100px;
+    position:relative;
+    bottom:230px;
     
 }
 
 .part3 p{
-    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico', cursive;
     font-size:1rem;
     text-align:justify;
     margin-left:100px;
     width:50%;
+    position:relative;
+    bottom:245px;
 }
+.part3 .img3 img{
+    width:25%;
+    left:880px;
+    position:relative;
+    bottom:490px;
+}
+
+
 /* ends part3 here */
 
 
@@ -76,17 +107,21 @@ width:15%;
 .part4 h4{
     font-size:2rem;
     font-family: 'Pacifico', cursive;
-    margin-bottom:80px;
-    margin-left:100px;
+    /* margin-bottom:80px; */
+    /* margin-left:100px; */
     text-align:center;
+    position:relative;
+    bottom:480px;
 }
 
 .part4 p{
-    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico', cursive;
     font-size:1rem;
     text-align:justify;
     margin-left:100px;
     width:90%;
+    position:relative;
+    bottom:440px;
 }
 /* ends part4 here */
 
@@ -94,11 +129,13 @@ width:15%;
 
 .part5 h1{
     font-size:3.5rem;
-    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico', cursive;
     margin-bottom:80px;
     margin-left:100px;
-    margin-top:70px;
+    margin-top:5px;
     text-align:center;
+    position:relative;
+    bottom:310px;
 }
 
 .part5 .c{
@@ -111,6 +148,10 @@ border-radius:10px;
 padding:5px;
 width:20%;
 margin-bottom:2px;
+position:relative;
+bottom:320px;
+font-family: 'Pacifico', cursive;
+
 }
 
 .part5 .c:hover{
@@ -119,7 +160,18 @@ margin-bottom:2px;
 
 /* ends part5 here */
 
-
+.credit {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 3.5rem;
+    font-size: 1.3rem;
+    border-top: var(--border);
+    font-family: 'Pacifico', cursive;
+}
+.credit span {
+    color:#7A52C1;
+}
 
 
 
